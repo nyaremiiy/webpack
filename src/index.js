@@ -1,1 +1,2 @@
-console.log('App Started!!!...')
+import './index.html';
+console.log('App Started!!!...');
