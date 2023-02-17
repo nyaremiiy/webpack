@@ -55,7 +55,14 @@ module.exports = {
         ],
       },
       {
-        test: /\.m?js$/,
+          test: /\.ttf?$/i,
+          type: 'asset/resource',
+          generator: {
+            filename : 'fonts/[name][ext]'
+          }
+      },
+      {
+        test: /\.m?js$/i,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
