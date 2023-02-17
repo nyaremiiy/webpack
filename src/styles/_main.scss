@@ -4,3 +4,11 @@ body {
   user-select: none;
   color: $c-text;
 }
+
+.image {
+  width: 50%;
+  margin: 0 auto;
+  height: 500px;
+  background-size: cover;
+  background-image: url(img/igor.jpg);
+}
